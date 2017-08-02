@@ -1,0 +1,56 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{
+	margin:0;
+	padding:0
+}
+body{
+	font-family: "helvetica neue",arial,sans-serif;
+	font-size: 14px;
+	color: #444;
+	overflow-x: hidden;
+}
+a{
+	text-decoration: none;
+}
+#page{
+	background-color: #fff;
+	min-width: 1024px;
+}
+.head-box{
+	position: relative;
+}
+.nav-bar{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 48px;
+	background-color: #000;
+}
+.nav{
+	width: 996px;
+	height: 48px;
+	margin: 0 auto;
+	color: #fff;
+	color: rgba(255,255,255,0.85);
+}
+.left-bar{
+	float: left;
+}
+.left-bar a{
+	display: inline-block;
+	line-height: 28px;
+	margin: 10px 6px 0 0;
+	color: #fff;
+	color: rgba(255,255,255,0.85);
+}
+.right-bar{
+	float: right;
+}
+.right-bar a{
+	display: inline-block;
+	font-size: 20px;
+	line-height: 30px;
+	margin: 9px 15px 0 0;
+	color: #fff;
+	color: rgba(255,255,255,0.85);
+}
