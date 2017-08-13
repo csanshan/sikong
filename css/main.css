@@ -70,8 +70,20 @@ a{
 	height: 500px;
 }
 .head-box .header .title{
-	width: 500px;
+	width: 540px;
 	height: 50px;
 	margin: 118px auto 40px;
 	background-image: url(../img/head_title.png);
+}
+.head-box .header .search-box{
+	text-align: center;
+}
+.head-box .header #query{
+	width: 540px;
+	height: 34px;
+	border: 1px solid rgba(255,255,255,0.8);
+	border-radius: 2px;
+	color: #fff;
+	background: rgba(0,0,0,0.15);
+	padding-left: 10px;
 }
